@@ -1,27 +1,39 @@
 div{
-    background-color: bisque;
-    color:black;
+    background-color: rgb(205, 147, 40);
+    width: 375px;
+    margin: 0 auto;
+
+}
+img{
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+div h1{
+    box-sizing: border-box;
+    padding: 1rem 1rem;
+    background-color:rgba(149, 102, 0, 0.937);
+    padding-left: 2em;
+    
+}
+div li{
+    display: inline-block;
+    background-color: rgb(171, 100, 7);
+    margin-bottom: 1em;
+       
+}
+div ul{
+    padding-left: 2em;
+    
+}
+div a{
     text-decoration: none;
-    width: 300px;
-    margin: auto;
-    padding: 10px;
-   
-    
+    color: black;
+        
 }
-ul a{
-    background-color: darkorange;
-    border-width: 2px;
-    border-style: inset;
-    border-color: bisque;
-    text-decoration: none;
-    margin: 3px;
-    
-    
+div li:hover{
+    background-color: rgb(118, 73, 15);
 }
-ul{
-    display: inline-flex;
-}
-li{
-    list-style: none;
-    margin:7px;
+body{
+    background-color: rgb(159, 134, 103);
 }
